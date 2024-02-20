@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body, h1, h2, h3, h4, h5, [class*="css"], [class="legendtoggle"] { font-family: 'Open Sans', sans-serif; }
+
+
+/* Cartões / Colunas */
+[data-testid="column"] {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 12px 0px;
+    border-radius: 15px;
+    padding: 0.5% 1.5%;
+    background-color: white;
+} 
+
+[class="block-container css-k1ih3n egzxvld4"]{
+    padding: 1rem 1rem 5rem;
+}
+
+[class="block-container css-k1ih3n egzxvld4"]{
+    padding-top: 56px;
+}
+
+/* Cartões de Métrica */
+[data-testid="stMetricLabel"] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+[data-testid="stMarkdownContainer"] {
+    text-align: center;
+}
+
+[data-testid="stMetricValue"]{
+    text-align: center;
+}
+
+[data-testid="stMetricDelta"]{
+    display: flex;
+    justify-content: center;
+}
+
+[data-testid="stMetricDelta"] [class="css-1wivap2 e16fv1kl3"]{
+    text-align: center;
+    width: auto;
+}
+
+/* Remove botão de View Fullscreen */
+[title="View fullscreen"]{
+    visibility: hidden;
+}
+
+/* Remove Made in StreamLit*/
+[class="css-1spm6tg egzxvld1"]{
+    visibility: hidden;
+}
+
+/* Titulo Grande das Páginas */
+h2{
+    padding: 0.5rem 0px;
+}
+
+/* Título dos Gráficos */
+h4 {
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
+[class="css-1629p8f e16nr0p31"]{
+    text-align: left;
+}
+
+/* Cor de Fundo */
+[class="appview-container css-1wrcr25 egzxvld6"]{
+    background-color: #EDF5F8;   
+}
+
+
+/* SideBar */
+[data-testid="stSidebar"]{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #061638;
+}
+
+[class="css-1vq4p4l e1fqkh3o4"]{
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+[class="css-6qob1r e1fqkh3o3"] [class="css-1aijjex e1fqkh3o2"]{
+    color: #EDF5F8;
+}
+
+
+/* Icone */
+[id="sidebar_icon"]{
+    width: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Botão Filtro */
+
+[class="css-123o6r2 e1s6o5jp0"]{
+    background-color: #EDF5F8; 
+    border-radius: 0.25rem;
+ }
+
+[class="streamlit-expanderHeader st-ae st-bx st-ag st-ah st-ai st-aj st-by st-bz st-c0 st-c1 st-c2 st-c3 st-c4 st-ar st-as st-b6 st-b5 st-b3 st-c5 st-c6 st-c7 st-b4 st-c8 st-c9 st-ca st-cb st-cc"]{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: #061638;
+}
+
+/* Oculta Header 
+[data-testid="stHeader"]{
+    visibility: hidden;
+}
+*/
